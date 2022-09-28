@@ -12,3 +12,43 @@ header{
     height: 50px;
     display: flex;
 }
+
+header img , h3 {
+    margin: 10px;
+}
+
+.header_bottom{
+    height: 40px;
+    border-bottom: 1px solid rgb(186, 185, 185);
+    display: flex;
+}
+
+.header_bottom ul{
+    display: flex;
+    margin: 10px 5px;
+    list-style: none;
+}
+
+
+.header_bottom ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.questions_container{
+    margin-top:100px;
+    width:1000px;
+    
+    border: 1px solid black;
+    
+}
+.questions_container p{
+    margin-top: 20px; 
+}
