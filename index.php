@@ -49,20 +49,25 @@
     <div class="header_bottom">
         <ul>
             <li><a href="#">Intro</a></li>
-            <li><a href="#">Norme</a></li>
-            <li><a href="#">Termini</a></li>
+            <li><a href="#">Norme sulla Privacy</a></li>
+            <li><a href="#">Termini di Servizio</a></li>
             <li><a href="#">Tecnologie</a></li>
-            <li><a href="#">Domande</a></li>
+            <li ><a href="#">Domande Frequenti</a></li>
         </ul>
     </div>
 
     <main>
-        <div class="questions_container">
-            <h2>Domanda</h2>
-            <p>Risposta Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti cum ipsum distinctio voluptatum enim consequatur unde quisquam voluptatem exercitationem illum. Modi sunt eum voluptatibus distinctio amet dolor iure quasi deserunt?</p>
-        </div>
 
+        <?php
 
+            foreach ($faqs as $faq) {
+                
+                echo "<h2>".$faq['question']."</h2>";
+                echo $faq ['answer'];
+                
+            }
+            
+        ?>
 
     </main>
     
