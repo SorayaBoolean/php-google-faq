@@ -45,9 +45,6 @@ main{
 .questions_container{
     margin-top:100px;
     width:1000px;
-    
-    border: 1px solid black;
-    
 }
 .questions_container p{
     margin-top: 20px; 
